@@ -1,0 +1,65 @@
+:root {
+    --primay-color: green;
+    --btn-color: blue;
+    --text-color: white;
+    --border-color: black;
+    --hading-background-clor: rgb(112, 215, 240);
+}
+
+body {
+    background-color: rgb(193, 193, 193);
+}
+
+
+
+
+#san {
+    background-color: var(--btn-color);
+    border: 3px solid var(--border-color);
+    border-radius: 7px;
+    padding: 100px;
+    text-align: center;
+    font-size: auto;
+}
+
+#koli {
+    padding: 10px 30px;
+    margin: 30px;
+    background-color: var(--primay-color);
+    color: white;
+    text-decoration: none;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+}
+a:hover#koli{
+    background-color: rgb(49, 112, 49);
+}
+
+#loko {
+    padding: 10px 30px;
+    margin: 30px;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(227, 63, 63);
+    border-radius: 5%;
+}
+
+#h1 {
+    text-align: center;
+    background-color: var(--hading-background-clor);
+
+}
+
+#noom {
+    font-size: 18px;
+    background-color: rgb(193, 193, 193);
+}
+
+#no {
+    font-size: 18px;
+    background-color: rgb(193, 193, 193);
+}
+a:hover#loko{
+    background-color: blueviolet;
+}
+
